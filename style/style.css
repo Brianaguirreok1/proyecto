@@ -6,6 +6,7 @@
     margin:0;
 }
 
+
 body{
     display: flex;
     flex-direction: column;
@@ -23,7 +24,8 @@ header{
     font-size: large;
     justify-content: center;
     color: goldenrod;
-    
+    transition: all;
+    transform: scale(1);
 }
 
 

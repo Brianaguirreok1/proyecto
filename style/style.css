@@ -6,6 +6,14 @@
     margin:0;
 }
 
+.fondoNav{
+    background-color: #8872be;
+    border: 0.5em solid goldenrod;
+    margin: 1%;
+    
+}
+
+
 
 body{
     display: flex;
@@ -14,20 +22,24 @@ body{
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     min-height: 100vh;
-    background-color: #3a3548;
+    background-color: #8879b0;
     color: goldenrod;
 }
 
-header{
-    background-color: #3a3548;
-    display: grid;
-    font-size: large;
-    justify-content: center;
-    color: goldenrod;
-    transition: all;
-    transform: scale(1);
+.dino:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
 
+.Autos:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.peluche:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
 
 
 a{
@@ -65,7 +77,6 @@ img{
  
 
 }
-
 
 .categoria{
     border: 7px solid goldenrod;

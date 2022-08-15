@@ -1,4 +1,8 @@
-@import "general";
+@import "fuentes";
+@import "index";
+@import "variables";
+@import "dinosaurios";
+
 
 * {
   padding: 0;
@@ -6,25 +10,8 @@
 } 
 
 .fondoNav {
-  background-color: #8872be;
+  background-color: $navHeader;
   border: 0.5em solid goldenrod;
-  margin: 1%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-style: normal;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  min-height: 100vh;
-  background-color: #8879b0;
-  color: rgb(229, 228, 231);
-}
-
-.dino:hover {
-  transform: scale(1.2);
-  transition: 1s;
 }
 
 .Autos:hover {
@@ -42,15 +29,6 @@ a {
   color: rgb(249, 249, 249);
 }
 
-.section {
-  background-color: goldenrod;
-  padding: 1em;
-  margin: 7px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  border: 10px groove goldenrod;
-}
 
 .formulario {
   display: flex;
@@ -70,27 +48,13 @@ img {
   border: 7px solid goldenrod;
 }
 
-.header {
-  grid-area: header;
-}
-
-.categorias {
-  grid-area: categoria;
-}
-
-.imagenes {
-  grid-area: imagenes;
-}
-
 footer {
   grid-area: footer;
   background-color: #3a3548;
   color: goldenrod;
 }
 
-nav ul li {
-  list-style-type: none;
-}
+
 
 .footer {
   color: goldenrod;
@@ -103,11 +67,6 @@ nav ul li {
 }
 
 .container {
-  display: grid;
-  grid-template-areas: "header" "categorias" "imagenes" "footer";
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  gap: 15px;
   margin-bottom: 1px;
 }
 
@@ -117,11 +76,6 @@ nav ul li {
 }
 
 @media (min-width: 500px) {
-  .container {
-    grid-template-areas: "header header" "categorias categorias" "imagenes imagenes" "footer footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
   nav ul li {
     display: flex;
     justify-content: space-around;
@@ -139,10 +93,6 @@ nav ul li {
   }
 }
 @media (min-widht: 769px) {
-  .container {
-    grid-template-areas: "header header header" "imagenes imagenes imagenes" "footer footer footer";
-    grid-template-columns: 1fr 1fr 1fr;
-  }
   header {
     display: flex;
     flex-direction: row-reverse;

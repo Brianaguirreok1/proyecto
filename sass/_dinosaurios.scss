@@ -1,0 +1,20 @@
+.section {
+    background-color: goldenrod;
+    padding: 1em;
+    margin: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 10px groove goldenrod;
+       h1{
+          color: rgb(228, 201, 201);
+             a{
+                transform: scale(1.2);
+                transition: 1s;
+             }
+       }
+  }
+  
+.card-text{
+    color: black;
+}

@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2? familia= Montserrat:peso@400;502 &family= Roboto:wght@300 & display=swap");
+.Letras, .parrafo, .parrafo2 {
+  font-size: 30px;
+}
 
 body {
   display: flex;
@@ -95,14 +98,21 @@ img {
   height: 250px;
 }
 
-.categoria {
+.categorias {
   border: 7px solid goldenrod;
 }
 
+.valorimg {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  padding: 15px;
+}
+
 footer {
-  grid-area: footer;
   background-color: #3a3548;
   color: goldenrod;
+  margin-bottom: 0;
 }
 
 .footer {
@@ -122,6 +132,9 @@ footer {
 .sectionJugueteria {
   display: flex;
   border: 10px solid goldenrod;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 @media (min-width: 500px) {
@@ -146,14 +159,20 @@ footer {
     display: flex;
     flex-direction: row-reverse;
   }
+  .categorias {
+    border: 7px solid goldenrod;
+    display: flex;
+    flex-direction: row;
+  }
 }
 @media (min-width: 1024px) {
   body {
     display: flex;
     flex-wrap: wrap;
   }
-  .sectionJugueteria {
+  .categorias {
+    border: 7px solid goldenrod;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
   }
 }/*# sourceMappingURL=style.css.map */

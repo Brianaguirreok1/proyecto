@@ -1,11 +1,10 @@
-body {
+body{
     display: flex;
     flex-direction: column;
     text-align: center;
     font-style: normal;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     min-height: 100vh;
-    background-color: rgb(101, 243, 146);
     color: rgb(229, 228, 231);
   }
 
@@ -34,3 +33,17 @@ main{
     padding: 10px;
     border: 3px;
 }
+
+.fondoinicio{
+  background-image: url(../image/fondoinicio.jpg);
+}
+
+.carrousel{
+  padding: 10px;
+}
+
+.section{
+  margin-bottom: 10px;
+
+}
+

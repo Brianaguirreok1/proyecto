@@ -3,6 +3,7 @@
 
 .Letras {
     font-size: 30px;
+    color: black;
 }
   
 @mixin valor($width, $height){
@@ -12,4 +13,8 @@
 
 .card-text{
     font-size: 30px;
+}
+
+.nuevoingreso{
+    color: black;
 }

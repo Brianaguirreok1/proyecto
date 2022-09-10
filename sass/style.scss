@@ -28,6 +28,33 @@ a {
   color: rgb(249, 249, 249);
 }
 
+.fondoautos{
+  background-image: url(../image/fondoauto.jpg);
+
+}
+
+.fondomesa{
+  background-image: url(../image/fondojuegomesa.jpg);
+  
+}
+
+.fondobici{
+  background-image: url(../image/fondobici.jpg);
+}
+
+.fondobebe{
+  background-image: url(../image/fondobebe.jpg);
+}
+
+.libros1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.fondolibro{
+  background-image: url(../image/fondolibro.jpg);
+}
 
 .formulario {
   display: flex;
@@ -39,8 +66,8 @@ a {
 
 img {
   border: 7px solid #3a3548;
-  width: 285px;
-  height: 250px;
+  width: 351px;
+  height: 315px;
 }
 
 .categorias {
@@ -62,7 +89,9 @@ footer {
 }
 
 .pelucheLightyear{
-  margin-bottom: 50px;
+  margin-bottom: 307px;
+  margin-top: 0px;
+  margin-left: 20px;
 }
 
 .footer {
@@ -82,11 +111,17 @@ footer {
 
 .sectionJugueteria {
   display: flex;
-  border: 10px solid goldenrod;
+  border: 10px solid rgb(87, 167, 135);
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
 
+}
+
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 @media (min-width: 500px) {

@@ -9,6 +9,11 @@
   margin: 0;
 } 
 
+.titulos{
+  font-size: 40px;
+  color: black;
+}
+
 .fondoNav {
   background-color: $navHeader;
 }
@@ -22,6 +27,12 @@
   transform: scale(1.2);
   transition: 1s;
 }
+
+.card:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
 
 a {
   text-decoration: none;
@@ -70,9 +81,21 @@ img {
   height: 315px;
 }
 
+.envios{
+  margin: 10px;
+  border: black 3px solid;
+}
+
+.metodosdepago{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .categorias {
-  border: 7px solid goldenrod;
- 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .valorimg{
@@ -103,19 +126,6 @@ footer {
   @extend .Letras;
   border: 8px solid goldenrod;
   margin-bottom: 8px;
-}
-
-.container {
-  margin-bottom: 1px;
-}
-
-.sectionJugueteria {
-  display: flex;
-  border: 10px solid rgb(87, 167, 135);
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  flex-direction: row;
-
 }
 
 .section{
@@ -153,14 +163,12 @@ footer {
   }
 }
 @media (min-width: 1024px) {
-  body {
+ 
+  .categorias {
     display: flex;
     flex-wrap: wrap;
-  }
-  .categorias {
-    border: 7px solid goldenrod;
-    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
 
 }

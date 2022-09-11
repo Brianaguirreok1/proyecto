@@ -19,7 +19,8 @@ body {
   font-style: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   min-height: 100vh;
-  color: rgb(229, 228, 231);
+  background-image: url(../image/fondojugueteria.jpg);
+  background-repeat: no-repeat;
 }
 
 nav {
@@ -187,9 +188,14 @@ footer {
 }
 
 .pelucheLightyear {
-  margin-bottom: 307px;
+  margin-bottom: 35px;
   margin-top: 0px;
   margin-left: 20px;
+}
+
+.ligthy {
+  margin-bottom: 25px;
+  margin-top: 10px;
 }
 
 .footer {
@@ -206,6 +212,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.mapa {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 @media (min-width: 500px) {
